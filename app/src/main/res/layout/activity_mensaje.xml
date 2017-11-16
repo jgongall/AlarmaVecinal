@@ -14,16 +14,18 @@
             android:visibility="visible">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnAudio"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Button" />
+                android:background="@android:color/holo_red_dark"
+                android:text="Audio" />
 
             <Button
-                android:id="@+id/btn"
+                android:id="@+id/btnAlerta"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Button" />
+                android:background="@android:color/holo_green_dark"
+                android:text="Alerta" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
