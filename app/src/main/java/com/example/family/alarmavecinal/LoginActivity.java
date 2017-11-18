@@ -20,6 +20,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -55,7 +56,8 @@ import static android.Manifest.permission.READ_CONTACTS;
             public void onClick(View v){
                 Intent retistroIntent = new Intent(LoginActivity.this, RegistroActivity.class);
                 LoginActivity.this.startActivity(retistroIntent);
-            }
+
+                }
         });
 
     }

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="35dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="383dp">
+
+            <ImageButton
+                android:id="@+id/ambulancia"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:background="@android:color/background_light"
+                android:onClick="ambulancia"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/hospital" />
+
+            <ImageButton
+                android:id="@+id/bomberos"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:background="@android:color/holo_red_dark"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/bomberos" />
+
+            <ImageButton
+                android:id="@+id/police"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:background="@android:color/holo_green_dark"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/police" />
+
+            <ImageButton
+                android:id="@+id/alarma"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/alarma" />
+
+        </GridLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="OPCIONES" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
